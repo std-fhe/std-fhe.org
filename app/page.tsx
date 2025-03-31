@@ -12,9 +12,9 @@ export default function Home() {
         <Section>
           <H2>What is Fully-homomorphic Encryption (FHE)?</H2>
 
-          <P>When processing data, it may be in one of three states: "at rest"
-          in a storage medium like a hard drive, "in transit" over a
-          communication link between systems, or "in use" while a CPU or other
+          <P>When processing data, it may be in one of three states: &ldquo;at rest&rdquo;
+          in a storage medium like a hard drive, &ldquo;in transit&rdquo; over a
+          communication link between systems, or &ldquo;in use&rdquo; while a CPU or other
             computation resource is processing it.</P>
           <P>While encryption is commonly used for data at rest and in transit,
             processing data typically requires decrypting it. When the data is
@@ -41,7 +41,7 @@ export default function Home() {
             <Li>ASICs</Li>
           </Ul>
 
-          <P>Each type of compute resource requires significant effort to create library or compilers to utilize. Additionally, the field is nascent, so many things are still being discovered. There's a trade-off between accelerating commercial viability of FHE and performing the basic research necessary to discover how to accelerate FHE computation to support commercial development.</P>
+          <P>Each type of compute resource requires significant effort to create library or compilers to utilize. Additionally, the field is nascent, so many things are still being discovered. There&rsquo;s a trade-off between accelerating commercial viability of FHE and performing the basic research necessary to discover how to accelerate FHE computation to support commercial development.</P>
 
           <P>A C++ standard for FHE along with a reference implementation in LLVM will provide the most leverage at the intersection of the developing commercial market and the necessary research in schemes and hardware acceleration.</P>
         </Section>
